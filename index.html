@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Tailwind_CSS</title>
+
+    <style type="text/tailwindcss">
+      .container {
+        @apply mr-8 text-gray-500 font-semibold capitalize text-base;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="custom bg-gray-100 w-full h-auto ">
+      <!-- gestion de la navbar -->
+      <div class="flex justify-between w-full pr-20 pl-20 pb-9 pt-6">
+        <div class="flex justify-between">
+            <div>
+              <a href="#"><img src="site-logo.svg" alt="" class="mr-14"/></a>
+            </div>
+            <div>
+              <ul class="flex ">
+                <li>
+                  <a
+                    href="#"
+                    class="container"
+                    >product</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="container"
+                    >pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="container"
+                    >customer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="container"
+                    >about us</a
+                  >
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div>
+          <a href="#"  class="container">sign in</a>
+          <button class="bg-gradient-to-l from-red-500 to-orange-400 rounded-full pb-3 pt-3 pl-6 pr-6 text-white capitalize text-1xl font-semibold">free trial</button>
+        </div>
+      </div>
+      <!----------------- fin de la navbar-------- -->
+
+      <!-- gestion du hero -->
+      <div class="flex h-screen w-full pl-20 bg-[url('product-hero-1.png')]  bg-no-repeat bg-right-top bg-contain">
+        <div class="justify-self-end w-3/4">
+          <h1 class="text-gray-800 text-5xl font-semibold pb-6">Launch and Grow Your SaaS Business Successfully</h1>
+          <p class="pb-6 text-lg text-gray-600 w-2/3">
+            Launch is a modern website template perfect for marketing your SaaS
+            products. It helps to launch your products with a bang and grow
+            exponentially.
+          </p>
+          <button class="bg-gradient-to-l from-red-500 to-orange-400 rounded-full mbt-4 pb-3 pt-3 pl-6 pr-6 text-white capitalize text-1xl font-semibold">start free trial</button>
+        </div>
+        <div class="w-2/4">
+          <!-- <img src="product-hero-1.png" alt="" class="w-full  "/> -->
+        </div>
+      </div>
+      <!-- -----------fin----------------->
+
+      <!-- début de la liste d'image -->
+      <div class="flex justify-evenly pb-10 pt-5 w-full">
+        <img src="logo-1.svg" alt="" class="w-16 "/>
+        <img src="logo-2.svg" alt="" class="w-16 "/>
+        <img src="logo-3.svg" alt="" class="w-16 "/>
+        <img src="logo-4.svg" alt="" class="w-16 " />
+        <img src="logo-5.svg" alt=""  class="w-16 "/>
+        <img src="logo-6.svg" alt="" class="w-16 " />
+      </div>
+      <!-- -----------fin--------- -->
+    </div>
+
+    <div class="pt-16 pb-16" >
+        <div class="w-full ">
+            <h1 class="text-center text-3xl text-black-200 capitalize font-semibold mb-5">Trusted By Top Companies</h1>
+            <a href="#" class="flex justify-center text-red-500 mb-8">view customers stories</a>
+        </div>
+
+        <div class="flex justify-center ">
+            <div class=" bg-gray-100 p-10 w-3/5 rounded-lg text-center text-gray-500 shadow-md mb-16">
+                <img src="quote-icon.svg" alt="" class="">
+                <p class="text-lg   p-6">You can list customer reviews or testimonials here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at erat vel quam cursus sagittis. Curabitur vestibulum mollis leo, sed ultricies felis egestas ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In egestas est at lorem lacinia malesuada vel at arcu. Etiam volutpat ornare quam, at cursus mi tristique sit amet.</p>
+                <img src="aws.svg" alt="" class="bg-white rounded-full w-20 shadow-md flex items-center">
+                <p>James Doe, Product Director</p>
+                <p>compagny name</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+
+        <div>
+            <h1 class="text-center text-3xl text-black-200 capitalize font-semibold pb-6">What Launch Can Do For You</h1>
+            <div>
+                <p>sass platforms</p>
+                <h1>benefit heading one lorem ipsum</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde voluptas odio facere quos, consequatur excepturi, reiciendis nulla vitae iure quo. Numquam non adipisci quibusdam consequuntur magni est odit officiis.</p>
+            </div>
+        </div>
+
+        <div>
+
+        </div>
+    </div>
+  </body>
+</html>
